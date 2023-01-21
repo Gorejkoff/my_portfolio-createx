@@ -1630,11 +1630,7 @@ body._pc .benefits__tabs-button:hover {
       align-self: flex-end;
 }
 
-.slider__team {
-  /* Стрелка */
-  /* Стрелка влево */
-  /* Стрелка вправо */
-}
+/* Стрелка */
 
 .slider__team .slick-arrow {
   height: 48px;
@@ -1643,10 +1639,14 @@ body._pc .benefits__tabs-button:hover {
   font-size: 24px;
 }
 
-.slider__team .slick-arrow.slick-prev:hover {
+/* Стрелка влево */
+
+._pc .slider__team .slick-arrow.slick-prev:hover {
   color: rgb(255, 255, 255);
   background-color: rgb(255, 63, 58);
 }
+
+/* Стрелка вправо */
 
 .slider__team .slick-arrow.slick-next {
   -webkit-transform: rotate(180deg);
@@ -1654,7 +1654,7 @@ body._pc .benefits__tabs-button:hover {
           transform: rotate(180deg);
 }
 
-.slider__team .slick-arrow.slick-next:hover {
+._pc .slider__team .slick-arrow.slick-next:hover {
   color: rgb(255, 255, 255);
   background-color: rgb(255, 63, 58);
 }
